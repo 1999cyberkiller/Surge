@@ -1,10 +1,3 @@
-#x
-DOMAIN-KEYWORD,twitter
-DOMAIN-SUFFIX,x.com
-DOMAIN-SUFFIX,twimg.com
-DOMAIN-SUFFIX,t.co
-DOMAIN-SUFFIX,x.co
-
 #Spotify
 DOMAIN-KEYWORD,spotify
 DOMAIN-SUFFIX,scdn.co
