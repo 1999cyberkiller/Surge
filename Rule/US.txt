@@ -4,6 +4,7 @@ DOMAIN-SUFFIX,scdn.co
 PROCESS-NAME,Spotify
 USER-AGENT,*Spotify*
 
+#system
 DOMAIN,api.smoot.apple.com
 DOMAIN,captive.apple.com
 DOMAIN,xp.apple.com
