@@ -1,6 +1,26 @@
-#Appledirect
-DOMAIN-SUFFIX,ls.apple.com
+#AppleDirect
+#DOMAIN-SUFFIX,ls.apple.com
 DOMAIN-SUFFIX,store.apple.com
+
+# China Apps
+USER-AGENT,MicroMessenger Client
+USER-AGENT,WeChat*
+USER-AGENT,MApi* // Dianping
+# Ali
+DOMAIN-KEYWORD,alipay
+DOMAIN-KEYWORD,taobao
+DOMAIN-KEYWORD,alicdn
+DOMAIN-KEYWORD,aliyun
+DOMAIN-KEYWORD,.tmall.
+IP-CIDR,198.11.188.0/25,no-resolve
+IP-CIDR,198.11.136.0/24,no-resolve
+USER-AGENT,%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*
+# China
+DOMAIN-SUFFIX,CN
+DOMAIN-KEYWORD,baidu
+PROCESS-NAME,"/Applications/WeChat.app/Contents/MacOS/WeChatAppEx.app/Contents/Frameworks/WeChatAppEx Framework.framework/Versions/C/Helpers/WeChatAppEx Helper.app/Contents/MacOS/WeChatAppEx Helper"
+
+#Appledirect
 
 DOMAIN,gs-loc-cn.apple.com
 DOMAIN-SUFFIX,cn.apple.com
@@ -697,7 +717,6 @@ DOMAIN-WILDCARD,*.lz-cdn??.com
 DOMAIN-WILDCARD,*.qhimgs?.com
 DOMAIN-WILDCARD,*.lz-cdn?.com
 USER-AGENT,%E4%BC%98%E9%85%B7*
-USER-AGENT,%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*
 USER-AGENT,TeslaMap
 
 
@@ -725,12 +744,6 @@ DOMAIN,sycm.mmstat.com
 
 DOMAIN,wustat.windows.com
 
-DOMAIN-KEYWORD,.tmall.
-DOMAIN-KEYWORD,alicdn
-DOMAIN-KEYWORD,alipay
-DOMAIN-KEYWORD,aliyun
-DOMAIN-KEYWORD,baidu
-DOMAIN-KEYWORD,taobao
 DOMAIN-SUFFIX,10010.com
 DOMAIN-SUFFIX,126.net
 DOMAIN-SUFFIX,127.net
@@ -1145,8 +1158,6 @@ IP-CIDR,183.194.184.0/21,no-resolve
 IP-CIDR,183.199.160.0/22,no-resolve
 IP-CIDR,183.246.56.0/21,no-resolve
 IP-CIDR,183.255.0.0/16,no-resolve
-IP-CIDR,198.11.136.0/24,no-resolve
-IP-CIDR,198.11.188.0/25,no-resolve
 IP-CIDR,203.107.1.0/24,no-resolve
 IP-CIDR,203.119.144.0/21,no-resolve
 IP-CIDR,203.119.168.0/22,no-resolve
@@ -1256,7 +1267,3 @@ IP-CIDR,8.149.128.0/17,no-resolve
 IP-CIDR,81.69.128.0/18,no-resolve
 IP-CIDR,81.69.192.0/18,no-resolve
 IP-CIDR,81.69.64.0/18,no-resolve
-USER-AGENT,%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*
-USER-AGENT,MApi* // Dianping
-USER-AGENT,MicroMessenger Client
-USER-AGENT,WeChat*
